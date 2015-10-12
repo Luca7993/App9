@@ -53,7 +53,7 @@ namespace App9.ViewModels
                 }
                 catch (Exception)
                 {
-
+                    
                 }
                 return _messageCommand;
             }
