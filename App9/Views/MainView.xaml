@@ -12,7 +12,6 @@
     mc:Ignorable="d">
 
     <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <!-- this button cause the object not reference error in error list (you can see it if you remove the button inside the data template and if you remove and reinsert this main button)-->
         <Button Command="{Binding MainMessageCommand}" Content="Main Message"/>
         <ListView ItemsSource="{Binding ItemList}">
             <ListView.ItemTemplate>

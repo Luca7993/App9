@@ -66,7 +66,9 @@ namespace App9.ViewModels
     {
         public SampleMainViewModel()
         {
+            //******if remove comment from this line, everything is working
             //MvxDesignTimeHelperStatic.Initialize();
+
             this.ItemList = new ObservableCollection<MainDescriptor>
             {
                 new MainDescriptor { Description = "sampleitemdesc1", Name="sampleItem1" },
